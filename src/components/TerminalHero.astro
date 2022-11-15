@@ -1,0 +1,47 @@
+<section class="h-screen p-20 bg-gray-900 font-mono">
+  <div class="w-3/4 mt-[7.5%]">
+    <div
+      class="relative inline-block bg-gray-900 text-green-700 my-5 justify-center text-7xl"
+    >
+      Hi, I'm Rodrigo.
+      <span
+        class="terminalCursor absolute inset-y-0 w-0 right-0 box-border h-[1.07em] border-l-[length:var(--cursor-w)] -mr-[var(--cursor-w)] bg-gray-900"
+      ></span>
+    </div>
+    <div class="my-12 text-3xl text-green-700">
+      <p>I'm a front-end developer from Lisbon, Portugal.</p>
+      <p>
+        I love building things for the web and tinkering with new technologies.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  :root {
+    --cursor-w: 2.5rem;
+  }
+  .terminalCursor {
+    animation: typing 10s infinite steps(17, end), blinking 1s step-end infinite;
+  }
+
+  /* ANIMATIONS */
+  @keyframes typing {
+    0% {
+      width: calc(100% + var(--cursor-w));
+    }
+    30%,
+    100% {
+      width: 0;
+    }
+  }
+  @keyframes blinking {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: green;
+    }
+  }
+</style>

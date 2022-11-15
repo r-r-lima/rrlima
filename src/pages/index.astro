@@ -1,0 +1,100 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/TerminalHero.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <main>
+      <Hero />
+      <div
+        class="w-full h-96 bg-fixed bg-cover bg-center flex justify-center items-center"
+        style="background-image:url(https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format)"
+      >
+        <h1
+          class="text-white opacity-80 drop-shadow-md text-4xl italic font-bold"
+        >
+          THIS IS SECTION 1
+        </h1>
+      </div>
+
+      <div class="p-20 space-y-8">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+          imperdiet viverra ante et tincidunt. Nullam mollis, elit consectetur
+          iaculis tempor, ante augue accumsan odio, ut feugiat eros velit sed
+          nibh. Nam eu eros fermentum, aliquam sem at, accumsan augue. Aenean
+          lacus lorem, interdum vel fermentum sed, sodales id libero. Nullam
+          vulputate commodo urna id mattis. Fusce iaculis maximus felis. Nullam
+          et orci at mi ultricies laoreet et eget ipsum. Aliquam luctus posuere
+          efficitur. Mauris scelerisque leo malesuada tellus malesuada accumsan.
+          Ut non metus velit. Vestibulum lectus nulla, ornare a nisl nec,
+          pretium viverra tellus. Phasellus sit amet magna augue. Sed a diam
+          pulvinar metus auctor tincidunt sed quis purus. Donec id lorem diam.
+        </p>
+
+        <p>
+          Donec eros risus, porttitor eget risus vel, pulvinar hendrerit ante.
+          Maecenas quis pretium metus. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae; Nulla facilisi. Nam
+          rutrum, augue et sagittis aliquam, mi nisi lobortis enim, eget egestas
+          sapien urna in turpis. Quisque scelerisque dolor sagittis lorem
+          accumsan, at tempus odio convallis. Nulla venenatis pulvinar ipsum vel
+          auctor. Praesent a enim at erat fringilla lacinia. Aenean eu ultrices
+          ante.
+        </p>
+      </div>
+      <div
+        class="w-full h-96 bg-fixed bg-cover bg-center flex justify-center items-center"
+        style="background-image:url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format)"
+      >
+        <h1
+          class="text-white opacity-80 drop-shadow-md text-4xl italic font-bold"
+        >
+          And this is section 2
+        </h1>
+      </div>
+
+      <div class="p-20 space-y-8">
+        <p>
+          Enim sit amet venenatis urna cursus. Tortor at risus viverra
+          adipiscing. Scelerisque eu ultrices vitae auctor eu augue. At
+          consectetur lorem donec massa sapien faucibus. Magna etiam tempor orci
+          eu lobortis elementum. Aliquet enim tortor at auctor urna nunc id.
+          Duis ut diam quam nulla porttitor. Ornare arcu odio ut sem. Urna et
+          pharetra pharetra massa massa ultricies. Et malesuada fames ac turpis.
+          Urna condimentum mattis pellentesque id. Ut tristique et egestas quis
+          ipsum suspendisse ultrices gravida. Id neque aliquam vestibulum morbi
+          blandit cursus. Eget egestas purus viverra accumsan in nisl nisi
+          scelerisque. Euismod nisi porta lorem mollis aliquam ut.
+        </p>
+
+        <p>
+          Leo urna molestie at elementum eu facilisis. Egestas congue quisque
+          egestas diam in arcu cursus. Pellentesque habitant morbi tristique
+          senectus et netus et malesuada. Congue quisque egestas diam in arcu
+          cursus euismod. Nunc aliquet bibendum enim facilisis gravida neque
+          convallis a. Egestas fringilla phasellus faucibus scelerisque eleifend
+          donec. Scelerisque eleifend donec pretium vulputate sapien nec
+          sagittis aliquam. Vel facilisis volutpat est velit egestas dui id
+          ornare arcu. Faucibus interdum posuere lorem ipsum dolor sit amet
+          consectetur adipiscing. Tempor nec feugiat nisl pretium fusce id velit
+          ut. Pretium lectus quam id leo in. Odio ut enim blandit volutpat
+          maecenas volutpat blandit aliquam. Arcu felis bibendum ut tristique et
+          egestas quis. Feugiat in fermentum posuere urna nec tincidunt praesent
+          semper. Proin libero nunc consequat interdum varius sit amet. Tortor
+          pretium viverra suspendisse potenti. Tincidunt praesent semper feugiat
+          nibh. Phasellus faucibus scelerisque eleifend donec pretium vulputate
+          sapien. Nulla facilisi morbi tempus iaculis.
+        </p>
+      </div>
+    </main>
+    <Footer />
+  </body>
+</html>
